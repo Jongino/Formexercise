@@ -1,0 +1,53 @@
+header{
+    border-style: groove; border-color: gold; 
+margin:5px;
+padding:1px 5px 1px 5px;
+}
+
+main{
+    border-style: solid; border-color: gold;
+padding:1px 50px 1px 50px;
+width: 90%;
+margin: auto;
+}
+
+#contactform {
+    width: 10%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#backhome{
+    color:white;
+
+    background-color: black;
+
+}
+
+ul{
+    display:flex
+    
+}
+ul{
+    list-style-type: none;
+}
+  
+  a{
+    display:block;
+    padding: 8px;
+    background-color:gold
+  }
+
+  a:hover{
+    background-color: greenyellow;
+  }
+
+    @media screen and (min-width:1024px){
+    body{
+        background-color: red;
+        color: gold;
+        font-size: 25px;
+        line-height: 25px;
+    }
+  }
+

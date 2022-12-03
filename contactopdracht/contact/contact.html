@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=320px, initial-scale=1.0" />
+    <title>Athens contact form</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/exercise_cssbasics/CSS/style.css"
+    />
+  </head>
+  <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p><label>Enter your Text: </label><textarea> </textarea></p>
+    <p>
+      <input type="submit" />
+    </p>
+    <form name="fileForm" enctype="multipart/form-data" data-netlify="true">
+      <p></p>
+    </form>
+    <p class="result"></p>
+  </form>
+  <input type="hidden" name="form-name" value="contact" />
+
+  <a id="backhome" href="/contactopdracht/index.html" target="_parent"
+    >Back to homepage.</a
+  >
+</html>
